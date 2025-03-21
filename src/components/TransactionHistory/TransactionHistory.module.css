@@ -1,0 +1,38 @@
+.tableWrapper {
+  width: 100%;
+}
+
+.transactionTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.1);
+}
+
+.tableTitle {
+  background-color: #585858;
+}
+
+.tableTitle th {
+  color: rgb(255, 255, 255);
+}
+
+.transactionTable th,
+.transactionTable td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.transactionTable thead {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.transactionTable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.transactionTable tbody tr:hover {
+  background-color: #bdb8b8;
+}
